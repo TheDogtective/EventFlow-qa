@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar/NavBar.jsx";
 import { useAuth } from "./auth";
 import Catalog from "./pages/Catalog";
 import EventDetail from "./pages/EventDetail";

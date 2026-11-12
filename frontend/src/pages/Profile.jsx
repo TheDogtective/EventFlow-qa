@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import api, { errMessage } from "../api";
 import { useAuth } from "../auth";
-import Avatar from "../components/Avatar";
+import Avatar from "../components/Avatar/Avatar.jsx";
 
 function resizeImage(file, size = 256) {
   return new Promise((resolve, reject) => {

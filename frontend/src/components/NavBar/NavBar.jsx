@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router";
-import Logo from "./Logo";
-import Avatar from "./Avatar";
+import Logo from "../Logo/Logo.jsx";
+import Avatar from "../Avatar/Avatar.jsx";
 import { useAuth } from "../../auth";
 
 export default function NavBar() {

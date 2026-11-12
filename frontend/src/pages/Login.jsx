@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router";
 import { useAuth } from "../auth";
 import { errMessage } from "../api";
-import Logo from "../components/Logo";
+import Logo from "../components/Logo/Logo.jsx";
 
 export default function Login() {
   const { login, register } = useAuth();

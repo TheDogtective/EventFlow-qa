@@ -1,0 +1,26 @@
+{
+  "name": "eventflow",
+  "version": "1.0.0",
+  "description": "> Plateforme de billetterie événementielle — support pédagogique (fil rouge) de la formation Testeur QA.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDogtective/EventFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TheDogtective/EventFlow/issues"
+  },
+  "homepage": "https://github.com/TheDogtective/EventFlow#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}

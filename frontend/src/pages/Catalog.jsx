@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../api";
-import EventCard from "../components/EventCard";
+import EventCard from "../components/EventCard/EventCard.jsx";
 
 export default function Catalog() {
   const [events, setEvents] = useState([]);
