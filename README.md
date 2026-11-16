@@ -8,6 +8,8 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=michaelperson_EventFlow_Cours2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=michaelperson_EventFlow_Cours2)
+[![Security issues](https://sonarcloud.io/api/project_badges/measure?project=michaelperson_EventFlow_Cours2&metric=software_quality_security_issues)](https://sonarcloud.io/summary/new_code?id=michaelperson_EventFlow_Cours2)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=michaelperson_EventFlow_Cours2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=michaelperson_EventFlow_Cours2)
 
 eventflow est une application web réaliste à trois tiers (React, FastAPI, PostgreSQL) qui permet à des organisateurs de mettre en vente des billets pour leurs événements, et au public de réserver et payer en ligne. Elle sert de fil rouge à la formation Testeur QA : les stagiaires l'explorent, la testent et l'industrialisent tout au long du programme, du test manuel jusqu'à la chaîne CI/CD.
 
@@ -15,24 +17,25 @@ La version actuelle implémente le comportement attendu. Les bugs intentionnels 
 
 ## Sommaire
 
-- [Fonctionnalités](#fonctionnalités)
-- [Architecture](#architecture)
-- [Stack technique](#stack-technique)
-- [Prérequis](#prérequis)
-- [Démarrage rapide (Docker)](#démarrage-rapide-docker)
-- [Démarrage manuel](#démarrage-manuel)
-- [Configuration](#configuration)
-- [Données de démonstration](#données-de-démonstration)
-- [Référence de l'API](#référence-de-lapi)
-- [Parcours fonctionnel](#parcours-fonctionnel)
-- [Règles métier](#règles-métier)
-- [Modèle de données](#modèle-de-données)
-- [Charte graphique](#charte-graphique)
-- [Contexte pédagogique](#contexte-pédagogique)
-- [Structure du dépôt](#structure-du-dépôt)
-- [Dépannage](#dépannage)
-- [Feuille de route](#feuille-de-route)
-- [Licence](#licence)
+- [eventflow](#eventflow)
+  - [Sommaire](#sommaire)
+  - [Fonctionnalités](#fonctionnalités)
+  - [Architecture](#architecture)
+  - [Stack technique](#stack-technique)
+  - [Prérequis](#prérequis)
+  - [Démarrage rapide (Docker)](#démarrage-rapide-docker)
+  - [Démarrage manuel](#démarrage-manuel)
+  - [Configuration](#configuration)
+  - [Données de démonstration](#données-de-démonstration)
+  - [Référence de l'API](#référence-de-lapi)
+  - [Parcours fonctionnel](#parcours-fonctionnel)
+  - [Règles métier](#règles-métier)
+  - [Modèle de données](#modèle-de-données)
+  - [Charte graphique](#charte-graphique)
+  - [Contexte pédagogique](#contexte-pédagogique)
+  - [Projet de tests EventFlow-QA](#projet-de-tests-eventflow-qa)
+  - [Structure du dépôt](#structure-du-dépôt)
+  - [Dépannage](#dépannage)
 
 ## Fonctionnalités
 

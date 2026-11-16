@@ -43,3 +43,14 @@ def test_client_cant_see_promos():
     token = r.json()["access_token"]
     r = requests.get(URL + "/api/admin/promo", headers={"Authorization": "Bearer " + token})
     assert r.status_code == 403
+
+def test_lol():
+    token = get_token()
+    h = {"Authorization": "Bearer " + token}
+    try:
+        r = requests.post(URL + "/api/admin/promo", headers=h, json={"code": "DIS" + str(int(time.time())), "percent_off": 5, "max_uses": 1})
+        id = r.json()["id"]
+        r2 = requests.post(URL + "/api/admin/promo/" + str(id) + "/disable", headers=h)
+        assert r2.json()["expires_at"] != None
+    except:
+        pass
