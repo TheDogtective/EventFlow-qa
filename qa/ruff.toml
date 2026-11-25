@@ -1,5 +1,5 @@
-target-version = "py311"     # même version que la CI et le venv
-line-length = 100            # lisible côte à côte dans une revue de PR
+target-version = "py312"     # même version que la CI et le venv
+line-length = 120            # lisible côte à côte dans une revue de PR
 extend-exclude = ["reports"] # rapports générés, pas du code
 
 [format]
